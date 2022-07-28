@@ -115,7 +115,7 @@ body.mobile-menu-active nav {
 	height: 50%;
 }
 
-body.mobile-menu-active ul#menu {
+body.mobile-menu-active ul#menu-principal {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
@@ -145,8 +145,8 @@ nav {
  max-width: 300px;
 
  border-radius: 50%;
-  margin: 50px;
-   float: left;
+ /* margin: 50px;
+   float: left;   lo saque haciendo las modificaciones*/
 }
 
 h1{
@@ -240,13 +240,13 @@ ul{
 
 ul#contact-links {
     display: flex;
-    margin-top: 20px;
+  /*  margin-top: 20px; esto saco como correccion */
 
 }
 
 
 ul#contact-links li {
-    margin: 16px;
+   /* margin: 16px;   esto lo saco como correcion */
     padding: 8px;
     border-radius: 4px;
  
