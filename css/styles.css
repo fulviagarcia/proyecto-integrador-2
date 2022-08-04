@@ -24,8 +24,8 @@ body{
     background-image: linear-gradient(violet,aqua  ,white);
     color: #0f0f0f;
    min-height: 90vh;
+   animation-duration: 2s;
 }
-
 
 img {
     max-width: 100%;
@@ -38,7 +38,7 @@ header{
     align-items: center;
     position: fixed;
     padding: 16px;
-    height: 90px;
+    height: 100px;
     width: 100%;
     background-color: #fbfbfb;
     top: 0%;
@@ -120,16 +120,23 @@ body.mobile-menu-active ul#menu-principal {
 	align-items: center;
 	justify-content: space-around;
 	height: 100%;
+
 }
+
+
+/*body.mobile-menu-active article {
+    width: 100%;
+}*/
+
 
 
 
 /* logo eidos*/
 .logo{
-    width: 120px;
+    width: 100px;
     display: flex;
  display: inline-block;
- padding-top: 20px;
+ padding-top: 0px;
  align-items: flex-end;
 }
 
@@ -154,6 +161,7 @@ h1{
     justify-content: center;
     font-size: 36px;
     text-align: center;
+    padding-top: 5px;
 }
 
 p{
@@ -166,9 +174,10 @@ p{
     font-size: 20px;
     background-color: #af599e;
     color: #fbfbfb;
-    padding: 12px 20px;
+    padding: 16px 20px;
     border-radius: 50px;
     height: 60px;
+    display: inline-block
 
 }
 
@@ -206,7 +215,7 @@ section#inicio {
 }
 
 article{
-    width: 70%;
+    width: 50%;
 }
 
 
@@ -227,6 +236,7 @@ article.section2{
     max-width: 700px;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 
 }
 
